@@ -1,0 +1,57 @@
+.app-pattern {
+    min-height: 100vh;
+    background-color: #f8fafc;
+    /* subtle dotted + grid pattern */
+    background-image:
+        radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+        linear-gradient(135deg, rgba(0, 0, 0, 0.02) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.02) 50%, rgba(0, 0, 0, 0.02) 75%, transparent 75%, transparent);
+    background-size: 12px 12px, 24px 24px;
+    background-position: 0 0, 0 0;
+    /* optional content padding */
+    padding: 0;
+}
+
+.testimonials {
+    padding: 2rem 1rem;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    color: #222;
+}
+
+/* styled blockquote */
+.testimonials .blockquote {
+    max-width: 720px;
+    margin: 0.75rem auto;
+    background: linear-gradient(180deg, #ffffff 0%, #fbfbff 100%);
+    border-left: 6px solid #6c63ff;
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(22, 27, 40, 0.06);
+    font-style: italic;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* quote author */
+.testimonials .blockquote .author {
+    display: block;
+    text-align: right;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    color: #555;
+    font-style: normal;
+    font-size: 0.95rem;
+}
+
+/* smaller screens: reduce padding and radius */
+@media (max-width: 576px) {
+    .testimonials .blockquote {
+        padding: 0.9rem;
+        margin: 0.6rem;
+        border-left-width: 4px;
+    }
+}
