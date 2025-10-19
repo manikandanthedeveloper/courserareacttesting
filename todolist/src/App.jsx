@@ -5,7 +5,6 @@ function App() {
 	return (
 		<div>
 			<Navigation />
-			{/* <ToDoForm addTodo={addTodo} /> */}
 			<Todolists />
 		</div>
 	);
