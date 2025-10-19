@@ -1,0 +1,9 @@
+span.card-close {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    padding: 0;
+    float: right;
+}
