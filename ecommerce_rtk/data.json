@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "price": 999.99,
+        "description": "A high-performance laptop for all your computing needs.",
+        "imageUrl": "../src/assets/products/laptop.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Smartphone",
+        "price": 699.99,
+        "description": "A sleek smartphone with the latest features.",
+        "imageUrl": "../src/assets/products/smartphone.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Headphones",
+        "price": 199.99,
+        "description": "Noise-cancelling headphones for immersive sound experience.",
+        "imageUrl": "../src/assets/products/headphone.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Smartwatch",
+        "price": 299.99,
+        "description": "A stylish smartwatch to keep you connected on the go.",
+        "imageUrl": "../src/assets/products/smartwatch.png"
+    },
+    {
+        "id": 5,
+        "name": "Tablet",
+        "price": 499.99,
+        "description": "A lightweight tablet perfect for entertainment and productivity.",
+        "imageUrl": "../src/assets/products/tablet.png"
+    }
+]

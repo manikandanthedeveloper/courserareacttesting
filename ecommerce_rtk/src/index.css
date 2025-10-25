@@ -1,0 +1,9 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.height-200 {
+    height: 200px;
+}
+
+.height-50 {
+    height: 50px;
+}
